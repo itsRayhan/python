@@ -17,3 +17,29 @@ def change():
 
 change()
 print(name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+name = "Rayhan"
+
+def change():
+    global name
+    name = "Python"
+
+change()
+print(name)
+
+name = "Java"
+print(name)
