@@ -17,5 +17,26 @@ x.clear()
 
 
 print (x) #access list item
-
+q = ["apple", "banana", "cherry","marry"]
 #loop list
+for i in q:   #this loop worked in item , means call item 
+    print(i)
+
+#use index and call item
+print('use index:') 
+for i in range (len(q)):
+     
+    print(q[i])
+
+
+
+#use while loop 
+i=0
+while i<(len(q)):
+    if i==3:
+        break
+    i+=1
+    print(q[i])
+
+
+
