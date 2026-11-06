@@ -20,3 +20,5 @@ for i in range(1,limit+1,60): # proti bar 60 kora barba
      
 
 
+
+
