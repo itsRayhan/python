@@ -4,8 +4,24 @@ def numbers(*args):#Function তৈরি করেছো ২টি Parameter �
     for i in args:
         total +=i
     return total 
-
 print(numbers(10, 20, 30, 40, 50))
 
 
-dfcs
+#global bariable 
+age = 22
+def student():
+    global age
+    age = 25
+student()
+print(age)
+
+
+
+
+
+check = lambda x: "Even" if x % 2 == 0 else "Odd"
+print(check(10))
+print(check(7))
+
+
+
