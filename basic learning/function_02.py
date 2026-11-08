@@ -7,3 +7,5 @@ def numbers(*args):#Function তৈরি করেছো ২টি Parameter �
 
 print(numbers(10, 20, 30, 40, 50))
 
+
+dfcs
