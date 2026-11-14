@@ -1,6 +1,10 @@
-n= input().split()
+n= input()
 count =0
 for i in  n:
-    count+=1
-    print(count)
-    print (i)
+    if i=="4" or i=="7":
+        count+=1
+
+if count ==4 or count==7:
+    print("YES")
+else:
+    print("NO")
