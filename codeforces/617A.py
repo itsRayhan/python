@@ -1,7 +1,7 @@
 
 x = int(input())
 
-steps = (x + )
+steps = (x +4 )
 result=steps // 5
 
 print(result)
